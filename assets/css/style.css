@@ -57,3 +57,8 @@ padding-top: 90px;
 #Menu ul li{
   padding: 0 15px 0 0;
 }
+
+.first-box {
+  height: 600px;
+  background: url("../img/layer1.png")
+}
