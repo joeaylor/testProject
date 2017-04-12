@@ -1,15 +1,63 @@
-.top-logo h1{
-  height: 200px;
-  margin : 0;
-  padding : 0;
-  text-decoration:none;
-	border:0;
-  text-align: center;
-  background: url('file:///Users/Joe/Documents/testProject/assets/img/logo.gif') no-repeat 0 0;
+.my-fluid-container {
+
+  padding-left: 15px;
+
+  padding-right: 15px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
 }
 
-.top-logo h1 a{
-  display : block;
-  height : 113px;
-  text-indent : -9999px;
+
+/* font styling */
+h1,
+h2,
+h3,
+h4,
+p {
+font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: 1.25em;
+  color: gray;
+  line-height: 32px;
+}
+
+h1 {
+  font-size: 40px !important;
+  color: black;
+}
+
+
+/* Menu Logo */
+
+h1.top-logo{
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  background: url("file:///Users/Joe/Documents/testProject/assets/img/logo.png") no-repeat 0 0;
+}
+h1.top-logo a{
+  display:block;
+  text-indent:-9999px;
+}
+
+/* Menu Styling */
+#Menu {
+padding-top: 50px;
+}
+
+#Menu ul{
+  list-style: none;
+  top: 0;
+  right: 0;
+  position: fixed;
+  display: -webkit-inline-box;
+  float: right;
+  padding: 15px 25px 0 0;
+}
+#Menu ul li{
+  padding: 0 15px 0 0;
 }
