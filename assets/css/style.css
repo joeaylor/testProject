@@ -23,19 +23,24 @@ h1 {
 /* Menu Logo */
 
 h1.top-logo{
-  height: 50px;
-  margin: 12px 0 12px 0;
-  padding: 0;
   background: url("../img/logo.png") no-repeat 0 0;
+  margin-left: 18px;
 }
 h1.top-logo a{
   display:block;
   text-indent:-9999px;
 }
 
+@media(max-width: 768px) {
+  h1.top-logo{
+    background: url("../img/logo-mobile.png") no-repeat 0 0;
+    margin-left: 18px;
+  }
+}
+
 /* Menu Styling */
 #Menu {
-padding-top: 75px;
+
 }
 
 #Menu ul{
