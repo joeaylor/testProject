@@ -31,7 +31,7 @@ h1 {
 
 h1.top-logo{
   height: 50px;
-  margin: 0;
+  margin: 12px 0 12px 0;
   padding: 0;
   background: url("file:///Users/Joe/Documents/testProject/assets/img/logo.png") no-repeat 0 0;
 }
@@ -42,12 +42,12 @@ h1.top-logo a{
 
 /* Menu Styling */
 #Menu {
-padding-top: 50px;
+padding-top: 90px;
 }
 
 #Menu ul{
   list-style: none;
-  top: 0;
+  top: 13px;
   right: 0;
   position: fixed;
   display: -webkit-inline-box;
