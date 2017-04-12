@@ -1,18 +1,11 @@
-/* Bootstrap Full width styling */
-.my-fluid-container {
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 /* font styling */
 h1,
 h2,
 h3,
 h4,
-p {
+p,
+ul,
+li {
 font-family: 'Open Sans', sans-serif;
 }
 p {
@@ -33,7 +26,7 @@ h1.top-logo{
   height: 50px;
   margin: 12px 0 12px 0;
   padding: 0;
-  background: url("file:///Users/Joe/Documents/testProject/assets/img/logo.png") no-repeat 0 0;
+  background: url("../img/logo.png") no-repeat 0 0;
 }
 h1.top-logo a{
   display:block;
@@ -49,7 +42,7 @@ padding-top: 75px;
   list-style: none;
   top: 13px;
   right: 0;
-  position: fixed;
+  position: absolute;
   display: -webkit-inline-box;
   float: right;
   padding: 15px 25px 0 0;
@@ -58,7 +51,14 @@ padding-top: 75px;
   padding: 0 15px 0 0;
 }
 
+/*body styling */
+
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .first-box {
   height: 600px;
-  background: url("../img/layer1.png")
+  background: url("../img/layer1.png");
 }
