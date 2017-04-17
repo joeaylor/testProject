@@ -17,6 +17,13 @@ h1 {
   color: white;
 }
 
+#Menu .logo ul li a {
+  text-decoration: none;
+  color: black;
+}
+#Menu .logo ul li a:hover{
+  border-bottom: 2px black solid;
+}
 
 .divider-text {
   padding: 40px 50px 50px 50px;
@@ -28,7 +35,7 @@ h1.top-logo{
   background: url("../img/logo.png") no-repeat 0 0;
   margin-left: 18px;
 }
-h1.top-logo a{
+#Menu .logo a h1{
   display:block;
   width: 200px;
   text-indent:-9999px;
@@ -77,11 +84,11 @@ body{
   height: 600px;
 }
 
-.first-box {
+.watch-box {
   background: url("../img/layer1.png");
     background-position: 20% 50%;
 }
-.second-box {
+.pencil-box {
   background: url("../img/layer2.png");
   background-position: 0% 50%;
 
@@ -114,14 +121,14 @@ body{
   }
 }
 
-p.link-button {
-  padding: 5px 15px;
+a.link-button {
+  padding: 8px 39px;
   border: solid white 2px;
   width: 100px;
   text-align: center;
   color: white;
 }
-p.link-button:hover {
+a.link-button:hover {
   color: black;
   background-color: white;
   cursor: crosshair;
